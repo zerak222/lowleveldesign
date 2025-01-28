@@ -7,10 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="tictactoe" />
-        <module name="parkinglot" />
+        <module name="solidprinciples" />
         <module name="design" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="parkinglot" target="11" />
+      <module name="tictactoe" target="22" />
+    </bytecodeTargetLevel>
   </component>
 </project>
