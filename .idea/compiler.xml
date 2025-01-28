@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="tictactoe" />
         <module name="parkinglot" />
+        <module name="design" />
       </profile>
     </annotationProcessing>
   </component>
